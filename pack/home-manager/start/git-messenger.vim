@@ -1,1 +1,0 @@
-/nix/store/i46w3fs0blcz523p98645hr2q9d6p75i-vimplugin-git-messenger.vim-2022-05-02/.

@@ -1,0 +1,9 @@
+#!/nix/store/2r9n7fz1rxq088j6mi5s7izxdria6d5f-bash-5.1-p16/bin/sh
+
+DIR="$(dirname $(dirname $( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )))"
+
+cd $DIR
+make pre-commit
+for FILE in `git diff --staged --name-only`; do
+    git add $FILE
+done

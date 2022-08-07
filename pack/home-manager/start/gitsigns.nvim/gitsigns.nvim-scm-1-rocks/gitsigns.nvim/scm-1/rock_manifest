@@ -1,0 +1,55 @@
+rock_manifest = {
+   doc = {
+      ["gitsigns.txt"] = "acadf152538f6bc749fdc982d9bc18bf"
+   },
+   ["gitsigns.nvim-scm-1.rockspec"] = "6584a06f19ce9c604cd08f78d3dca79c",
+   lua = {
+      ["README.md"] = "afdd95d237368e2c5979ac9e58c844e4",
+      gitsigns = {
+         ["actions.lua"] = "ffd9e0413079271680e74f30d207c364",
+         ["argparse.lua"] = "ebbe15e070065bb82798ec7990836d2e",
+         ["async.lua"] = "59a77f82830074de6e4e9fbbe6f131ba",
+         ["cache.lua"] = "1b84089e371e2c07f587e9b45f3c2004",
+         ["config.lua"] = "2548e5b48ab9823505aad499942055c0",
+         ["current_line_blame.lua"] = "489520682c553b7049e0218946b3a43c",
+         ["debounce.lua"] = "19643ec82344123e3df72713954336ae",
+         ["debug.lua"] = "332f61114335aff266be2fa910d6a509",
+         ["diff.lua"] = "9c27b56025988ee2239a72bbcc96a904",
+         ["diff_ext.lua"] = "5a0108da34df125b03fc8ff3fcafef2f",
+         diff_int = {
+            ["xdl_diff_ffi.lua"] = "ca9f1a620c2a15beb04f7440f714202d"
+         },
+         ["diff_int.lua"] = "001d09d985ac9e2998a98b9214d83f01",
+         ["diffthis.lua"] = "ab99649a2e3d98986cbdf25cc24646f3",
+         ["git.lua"] = "9fdc8529be719af28ff1ff4ed6a1fb70",
+         ["highlight.lua"] = "2a181976a4617d2cdaa2d579866ddb17",
+         ["hunks.lua"] = "dba2ea48ab988593efa73f843818b12c",
+         ["manager.lua"] = "f226d5e58aeed09877e94731163acbf1",
+         ["mappings.lua"] = "ef7b5ef6e20b913b013edb3b94e06fe6",
+         ["message.lua"] = "bf7a3e9b96c0a9c20404936bf82142d4",
+         nvim = {
+            ["autocmds.lua"] = "3d32ac1a061516d2fd223dfc66830f25",
+            ["autocmds_compat.lua"] = "734fd702c0c7513facc5b1bafeab3f1f",
+            ["callbacks.lua"] = "c7188461368c06fbb46e1208b8adecf1",
+            ["command.lua"] = "ba6ff5aff964f1a8f3d35ead28eaa7ac",
+            ["command_compat.lua"] = "21ddcd0ed9c872aef1106d21097d5664",
+            ["highlights.lua"] = "e9506afdbe70108310c18f28d8ac4ed5",
+            ["highlights_compat.lua"] = "7ca0bc726985eda03a83ea677c674d6c"
+         },
+         ["nvim.lua"] = "1e8e20f779964316503e659003a77fa6",
+         ["popup.lua"] = "11fa4af73966310c5669974fbaeb3f9d",
+         ["repeat.lua"] = "218d3ee2dc602587dfb1ff00ad49fbcb",
+         signs = {
+            ["base.lua"] = "f9d47b7dcab68192587ce01c343a79b0",
+            ["extmarks.lua"] = "6455202af02acaad6b91e33f7507bc85",
+            ["vimfn.lua"] = "00070793157aab6e66fd084495ab8b7e"
+         },
+         ["signs.lua"] = "07aa0fe461b0448256b2b557b3974796",
+         ["status.lua"] = "744a82f071fc5ffccc9967c9ee958b3b",
+         ["subprocess.lua"] = "6fa2bc8a83e13e809417d979aaf6438c",
+         ["test.lua"] = "22c63b8879e218adb9cb246df4aa0f11",
+         ["util.lua"] = "5e4004aa299f46d2f9ef36dad4d6cf26"
+      },
+      ["gitsigns.lua"] = "c2fd985cb7f6cc35a66d42005865e29f"
+   }
+}

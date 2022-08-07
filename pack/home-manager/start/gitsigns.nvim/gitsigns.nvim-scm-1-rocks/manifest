@@ -1,0 +1,189 @@
+commands = {}
+dependencies = {
+   ["gitsigns.nvim"] = {
+      ["scm-1"] = {
+         {
+            constraints = {
+               {
+                  op = "==",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   }
+}
+modules = {
+   ["README.md"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   gitsigns = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.actions"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.argparse"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.async"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.cache"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.config"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.current_line_blame"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.debounce"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.debug"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.diff"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.diff_ext"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.diff_int"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.diff_int.xdl_diff_ffi"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.diffthis"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.git"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.highlight"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.hunks"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.manager"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.mappings"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.message"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.autocmds"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.autocmds_compat"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.callbacks"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.command"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.command_compat"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.highlights"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.nvim.highlights_compat"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.popup"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.repeat"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.signs"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.signs.base"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.signs.extmarks"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.signs.vimfn"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.status"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.subprocess"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.test"] = {
+      "gitsigns.nvim/scm-1"
+   },
+   ["gitsigns.util"] = {
+      "gitsigns.nvim/scm-1"
+   }
+}
+repository = {
+   ["gitsigns.nvim"] = {
+      ["scm-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["README.md"] = "README.md",
+               gitsigns = "gitsigns.lua",
+               ["gitsigns.actions"] = "gitsigns/actions.lua",
+               ["gitsigns.argparse"] = "gitsigns/argparse.lua",
+               ["gitsigns.async"] = "gitsigns/async.lua",
+               ["gitsigns.cache"] = "gitsigns/cache.lua",
+               ["gitsigns.config"] = "gitsigns/config.lua",
+               ["gitsigns.current_line_blame"] = "gitsigns/current_line_blame.lua",
+               ["gitsigns.debounce"] = "gitsigns/debounce.lua",
+               ["gitsigns.debug"] = "gitsigns/debug.lua",
+               ["gitsigns.diff"] = "gitsigns/diff.lua",
+               ["gitsigns.diff_ext"] = "gitsigns/diff_ext.lua",
+               ["gitsigns.diff_int"] = "gitsigns/diff_int.lua",
+               ["gitsigns.diff_int.xdl_diff_ffi"] = "gitsigns/diff_int/xdl_diff_ffi.lua",
+               ["gitsigns.diffthis"] = "gitsigns/diffthis.lua",
+               ["gitsigns.git"] = "gitsigns/git.lua",
+               ["gitsigns.highlight"] = "gitsigns/highlight.lua",
+               ["gitsigns.hunks"] = "gitsigns/hunks.lua",
+               ["gitsigns.manager"] = "gitsigns/manager.lua",
+               ["gitsigns.mappings"] = "gitsigns/mappings.lua",
+               ["gitsigns.message"] = "gitsigns/message.lua",
+               ["gitsigns.nvim"] = "gitsigns/nvim.lua",
+               ["gitsigns.nvim.autocmds"] = "gitsigns/nvim/autocmds.lua",
+               ["gitsigns.nvim.autocmds_compat"] = "gitsigns/nvim/autocmds_compat.lua",
+               ["gitsigns.nvim.callbacks"] = "gitsigns/nvim/callbacks.lua",
+               ["gitsigns.nvim.command"] = "gitsigns/nvim/command.lua",
+               ["gitsigns.nvim.command_compat"] = "gitsigns/nvim/command_compat.lua",
+               ["gitsigns.nvim.highlights"] = "gitsigns/nvim/highlights.lua",
+               ["gitsigns.nvim.highlights_compat"] = "gitsigns/nvim/highlights_compat.lua",
+               ["gitsigns.popup"] = "gitsigns/popup.lua",
+               ["gitsigns.repeat"] = "gitsigns/repeat.lua",
+               ["gitsigns.signs"] = "gitsigns/signs.lua",
+               ["gitsigns.signs.base"] = "gitsigns/signs/base.lua",
+               ["gitsigns.signs.extmarks"] = "gitsigns/signs/extmarks.lua",
+               ["gitsigns.signs.vimfn"] = "gitsigns/signs/vimfn.lua",
+               ["gitsigns.status"] = "gitsigns/status.lua",
+               ["gitsigns.subprocess"] = "gitsigns/subprocess.lua",
+               ["gitsigns.test"] = "gitsigns/test.lua",
+               ["gitsigns.util"] = "gitsigns/util.lua"
+            }
+         }
+      }
+   }
+}
