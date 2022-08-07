@@ -1,0 +1,25 @@
+#! /nix/store/2r9n7fz1rxq088j6mi5s7izxdria6d5f-bash-5.1-p16/bin/bash -e
+export LUA_PATH=${LUA_PATH-';;'}
+LUA_PATH=${LUA_PATH:+';'$LUA_PATH';'}
+if [[ $LUA_PATH != *';''/nix/store/5w0j0b0rjwvcgk5fjy1l1q3dhi1wb298-luajit-2.1.0-2022-04-05-env/share/lua/5.1/?.lua'';'* ]]; then
+    LUA_PATH=$LUA_PATH'/nix/store/5w0j0b0rjwvcgk5fjy1l1q3dhi1wb298-luajit-2.1.0-2022-04-05-env/share/lua/5.1/?.lua'
+fi
+LUA_PATH=${LUA_PATH#';'}
+LUA_PATH=${LUA_PATH%';'}
+export LUA_PATH
+LUA_PATH=${LUA_PATH:+';'$LUA_PATH';'}
+if [[ $LUA_PATH != *';''/nix/store/5w0j0b0rjwvcgk5fjy1l1q3dhi1wb298-luajit-2.1.0-2022-04-05-env/share/lua/5.1/?/init.lua'';'* ]]; then
+    LUA_PATH=$LUA_PATH'/nix/store/5w0j0b0rjwvcgk5fjy1l1q3dhi1wb298-luajit-2.1.0-2022-04-05-env/share/lua/5.1/?/init.lua'
+fi
+LUA_PATH=${LUA_PATH#';'}
+LUA_PATH=${LUA_PATH%';'}
+export LUA_PATH
+export LUA_CPATH=${LUA_CPATH-';;'}
+LUA_CPATH=${LUA_CPATH:+';'$LUA_CPATH';'}
+if [[ $LUA_CPATH != *';''/nix/store/5w0j0b0rjwvcgk5fjy1l1q3dhi1wb298-luajit-2.1.0-2022-04-05-env/lib/lua/5.1/?.so'';'* ]]; then
+    LUA_CPATH=$LUA_CPATH'/nix/store/5w0j0b0rjwvcgk5fjy1l1q3dhi1wb298-luajit-2.1.0-2022-04-05-env/lib/lua/5.1/?.so'
+fi
+LUA_CPATH=${LUA_CPATH#';'}
+LUA_CPATH=${LUA_CPATH%';'}
+export LUA_CPATH
+exec "/nix/store/r1yp8zf88q6jzh9hwr5wanbldx9qbf77-luajit-2.1.0-2022-04-05/bin/luajit"  "$@" 
