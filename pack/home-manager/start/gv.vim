@@ -1,0 +1,1 @@
+/nix/store/7k17lx94lbvy06v11sdhch1w4bdnzi8n-vimplugin-gv.vim-2022-06-17/.

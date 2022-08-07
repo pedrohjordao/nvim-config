@@ -1,0 +1,1 @@
+/nix/store/k5ymwaqmlnvfdggdqlisqjj94f085j83-vimplugin-nvim-colorizer.lua-2020-06-11/.

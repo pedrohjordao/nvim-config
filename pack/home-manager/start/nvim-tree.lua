@@ -1,0 +1,1 @@
+/nix/store/2saz1vr0q6mf5g6nv5770nnfh3vw17g2-vimplugin-nvim-tree.lua-2022-07-27/.

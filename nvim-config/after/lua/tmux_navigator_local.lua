@@ -1,0 +1,1 @@
+/nix/store/45lvxx18y9dwzz6h4jfb07n9580xlpnh-home-manager-files/.config/nvim/after/lua/tmux_navigator_local.lua
